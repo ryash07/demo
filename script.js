@@ -71,7 +71,7 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach((element)=>{
         audioElement.src = "songs/${songIndex++}.mp3";
         audioElement.currentTime = 0;
         audioElement.play();
-        myProgressBar.value =0;
+        
         masterplay.classList.remove("fa-play-circle");
         masterplay.classList.add("fa-pause-circle");
     })
